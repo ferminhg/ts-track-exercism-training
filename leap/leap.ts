@@ -1,9 +1,9 @@
 export function isLeap(year: number): boolean {
   if (year % 4 !== 0) {
-    return false
+    return false;
   }
   if (year % 100 !== 0) {
-    return true
+    return true;
   }
-  return year % 400 === 0
+  return year % 400 === 0;
 }
